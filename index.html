@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip-Calculator</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js" type='module' defer></script>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <img src="images/logo.svg" />
+      </header>
+      <main>
+        <section class="input-section limited">
+          <label for="bill">Bill</label>
+          <div id="bill-wrapper">
+            <img src="images/icon-dollar.svg" alt="currency" />
+            <input type="number" id="bill"  class="input-amount" />
+          </div>
+          <label>Select Tip %</label>
+          <input type="button"  class='percentInput' value="5%" />
+          <input type="button" class='percentInput' value="10%" />
+          <input type="button" class='percentInput' value="15%" />
+          <input type="button" class='percentInput' value="25%" />
+          <input type="button" class='percentInput' value="50%" />
+          <input type="number" class='customInput' placeholder="Custom" />
+          <label for="people">Number of People</label>
+          <div id="people-wrapper">
+            <img src="images/icon-person.svg" alt="currency" />
+            <input type="number" id="people" class="input-amount"  />
+          </div>
+        </section>
+        <section class="output-section limited">
+          <div>
+            <h4>Tip Amount</h4>
+            <h6>/ person</h6>
+          </div>
+          <div class='amount'>
+            <img src="images/icon-dollar.svg" alt="currency" />
+            <h4 id="tip">0.00</h4>
+          </div>
+          <div>
+            <h4>Total</h4>
+            <h6>/ person</h6>
+          </div>
+          <div class='amount'>
+            <img src="images/icon-dollar.svg" alt="currency" />
+            <h4 id="total">0.00</h4>
+          </div>
+          <button id="reset-btn">RESET</button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

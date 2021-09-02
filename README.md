@@ -31,11 +31,10 @@ Users should be able to:
 ![Screenshot from 2021-09-02 17-15-21](https://user-images.githubusercontent.com/43995830/131879977-a74f0b66-6aaa-410f-aa7d-1c2aaf0a11eb.png)
 
 
-
 ### Links
 
-- Solution URL:(https://github.com/AnselemOdims/Tip-Calculator/edit/main)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/AnselemOdims/Tip-Calculator/edit/main)
+- Live Site URL: [Github Pages](https://anselemodims.github.io/Tip-Calculator/)
 
 
 ### Built with
@@ -50,6 +49,6 @@ Users should be able to:
 
 ### Useful resources
 
-- [MDN](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [W3Schools](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN](https://developer.mozilla.org/) - This helped me to understand and refresh some javascript concepts
+- [W3Schools](https://www.w3schools.com/) - This is an amazing site for all things Web Development(HTML, CSS, Javascript)
 
